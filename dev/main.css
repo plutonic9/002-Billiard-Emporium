@@ -1,0 +1,202 @@
+/* main.css - for Diamond Jim's Billiard Emporium project */
+
+body {
+	background-color: #445511;
+	background-image: url("../images/pool-table-birds-eye-background-873x1579.png");
+	background-position: top left;
+	background-repeat: no-repeat;
+	font-family: garamond, sans-serif;
+}
+
+/* header for all html documents in project */
+
+.header {
+	margin-top: 100px;
+	margin-left: 100px;
+	width: 773px;
+	height: 150px;
+	background-image: url("../images/08ball-150x150.png");
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+
+.header h1 {
+	font-size: 48px;
+	text-transform: uppercase;
+	font-weight: bolder;
+	color: #884444;
+	text-shadow: 5px 5px 5px #666666;
+	text-align: center;
+	padding-top: 20px;
+	
+}
+
+/* 	index.html - here are four div sections, one for each of the menu choices.
+	I do this so I can have an image associated with each choice... 
+	I define a regular DIV section, to put the image in, and then
+	a seperate '.xxx a' section, to format the <a> tag for each item */
+
+/* 	the 'a' section is same for all four, as is most of the info in the 
+	.xxx section.... hmmmm... there's gotta be a better, more efficient
+	way to select this stuff..  */
+
+.billiardtablesNAV {
+	margin-top: 25px;
+	margin-left: 250px;
+	width: 773px;
+	height: 100px;
+	background-image: url("../images/NAV-pooltable-100x56.png");
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+
+.billiardtablesNAV a {
+	display: block;
+	margin-left: 125px;
+	padding-top: 30px;
+	font-size: 24px;
+	color: #000000;
+	font-weight: bolder;
+}
+
+.cuesticksNAV {
+	margin-top: 25px;
+	margin-left: 250px;
+	width: 773px;
+	height: 100px;
+	background-image: url("../images/NAV-cuestick-100x100.png");
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+.cuesticksNAV a {
+	display: block;
+	margin-left: 125px;
+	padding-top: 30px;
+	font-size: 24px;
+	color: #000000;
+	font-weight: bolder;
+}
+
+.billiardballsNAV {
+	margin-top: 25px;
+	margin-left: 250px;
+	width: 773px;
+	height: 65px;
+	background-image: url("../images/NAV-poolballs-100x65.png");
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+
+.billiardballsNAV a {
+	display: block;
+	margin-left: 125px;
+	padding-top: 30px;
+	font-size: 24px;
+	color: #000000;
+	font-weight: bolder;
+}
+
+/* end of NAV section */
+
+/* index.html - just a fun picture */
+
+.poolguy {
+	margin-top: 0px;
+	margin-left: 100px;
+	width: 773px;
+	height: 500px;
+	background-image: url("../images/YouCanPlayPool-650x470.png");
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+.poolguy h2 {
+	padding-top: 425px;
+	padding-left: 90px;
+	font-size: 48px;
+	font-weight: bolder;
+	color: #000000;
+	text-shadow: 5px 5px 5px #666666;
+}
+
+/* index.html - ABOUT the project */
+
+.aboutNAV a {
+	display: block;
+	margin-left: 375px;
+	padding-top: 30px;
+	font-size: 24px;
+	color: #000000;
+	font-weight: bolder;
+}
+
+/* used on all but the home page, to return home */
+
+.backtohomeNAV {
+	margin-top: 25px;
+	margin-left: 200px;
+	width: 473px;
+	height: 130px;
+	background-image: url("../images/YouCanPlayPool-150x108.png");
+	background-position: left center;
+	background-repeat: no-repeat;
+	border-color: #000000;
+	border-width: 2px;
+	border-bottom: solid;
+}
+
+.backtohomeNAV a {
+	display: block;
+	margin-left: 150px;
+	padding-top: 30px;
+	font-size: 24px;
+	color: #000000;
+	font-weight: bolder;
+}
+
+/* here is stuff for the 'billiardtables.html' page  */
+
+.pooltables img {
+	margin: 40px 0px 0px 130px;
+}
+
+.pooltables p {
+	margin: 10px 0px 0px 140px;
+	font-size: 16px;
+	color: #000000;
+	font-weight: bolder;
+}
+
+/* here is stuff for the 'cuesticks.html' page  */
+
+.cuesticks img {
+	margin: 0px 0px 0px 110px;
+}
+
+.cuesticks p {
+	margin: 0px 0px 0px 110px;
+	font-size: 16px;
+	color: #000000;
+	font-weight: bolder;
+}
+
+/* here is stuff for the 'billiarballs.html' page  */
+
+.billiardballs img {
+	margin: 30px 0px 0px 250px;
+}
+
+.billiardballs p {
+	margin: 5px 0px 0px 210px;
+	font-size: 16px;
+	color: #000000;
+	font-weight: bolder;
+}
+
+/* here is stuff for the 'about.html' page  */
+
+.about p, ol {
+	margin: 10px 0px 0px 130px;
+	max-width: 580px;
+
+}
